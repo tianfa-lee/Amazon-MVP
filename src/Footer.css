@@ -1,0 +1,50 @@
+.footer {
+    background-color: #232F3E;
+}
+
+.footer p:hover, .footer span:hover  {
+    text-decoration: underline;
+}
+
+.footer__container {
+    max-width: 2300px;
+    color: #f8f8ff;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 1rem;
+    font-size: 13px;
+}
+
+.footer__container p {
+    padding-bottom: 5px;
+}
+
+.footer__title {
+    font-weight: 800;
+}
+
+.footer__title p {
+    font-size: 0.9rem;
+}
+
+.footer__copyright {
+    color: white;
+    background-color: #232F3E;
+    padding: 2rem;
+    position: relative;
+}
+
+.footer__copyright__info {
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.footer__copyright__info span {
+    padding-right: 1rem;
+    font-size: 0.7rem; 
+}
